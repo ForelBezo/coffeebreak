@@ -1,0 +1,21 @@
+{
+  "name": "klaxoon",
+  "version": "1.0.0",
+  "description": "Automated testing with TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test" : " testcafe chrome ./klaxoon"
+  },
+  "keywords": [
+    "TestCafe",
+    "Testing",
+    "Automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.4.0",
+    "selector": "^2.0.18",
+    "testcafe": "^1.12.0"
+  }
+}
